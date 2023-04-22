@@ -8,6 +8,13 @@ packages = [{include = "pydata_federal_contributions"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+jupyter = "^1.0.0"
+geopy = "^2.3.0"
+pandas = "^2.0.0"
+polars = "^0.17.6"
+geopandas = "^0.12.2"
+xlrd = "^2.0.1"
+keplergl = "^0.3.2"
 
 
 [build-system]
