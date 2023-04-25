@@ -1,0 +1,4 @@
+outs:
+- md5: a3a06333f958e9248f4480ca5961154d
+  size: 39264313
+  path: individual_2020_li.parquet
