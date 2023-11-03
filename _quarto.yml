@@ -1,0 +1,21 @@
+project: 
+  type: website
+
+website:
+  title: "Long Island Political Contributions"
+  sidebar:
+    style: docked
+    contents:
+      - href: notebooks/1.0-daveg-long-island-zipcodes.ipynb
+        text: 1. Getting Long Island's Zipcodes
+      - href: notebooks/2.0-daveg-long-island-contributors.ipynb
+        text: 2. Finding Long Island Contributors
+      - href: notebooks/3.0-daveg-long-island-contributions.ipynb
+        text: 3. Analyzing Long Island Contributors
+
+format:
+  html:
+    theme: cosmo
+    code-fold: true
+    css: styles.css
+    toc: true
